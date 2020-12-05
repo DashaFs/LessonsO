@@ -33,6 +33,8 @@ class Matrix:
     def __sub__(self, other):
         return other * -1 + self
 
+
+
     def totalsum(self):
         tsum = 0
         for i in range(len(self.X)):
